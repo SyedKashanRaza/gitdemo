@@ -1,0 +1,378 @@
+@media only screen and (max-width:576px){
+    .image1{
+        width: 400px;
+        height: 400px;
+    }
+
+    .start{
+        width: 576px;
+    }
+
+    .intro{
+        width: 576px;
+        text-align: left;
+    }
+
+    .nav{
+        margin-left: 50px;
+    }
+}
+
+.start{
+    height: 50px;
+    background-color: royalblue;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    
+}
+
+.slogan{
+    margin-left: 400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 80px;
+    background-color:whitesmoke;
+    background-image: url(images/saylani-logo.png);
+    background-size: 220px;
+    background-repeat: no-repeat;
+    /* position: fixed;
+    z-index: 1; */
+}
+
+.nav{
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+    margin-left: 675px;
+    margin-top: 30px;
+}
+
+.nav1:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+#nav1{
+    background-color: royalblue;
+    color: white;
+}
+
+li.nav1{
+    padding: 10px;
+    display: inline;
+    border-radius: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+button{
+    float: right;
+    margin: 15px;
+    background-color: whitesmoke;
+    color: lightslategray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.image1{
+    width: 100%;
+}
+
+.marquee{
+    background-color: royalblue;
+    color: white;
+    font-size: 1em;
+    height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px 50px 2px 50px;
+}
+
+.introduction{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+.favicon{
+    text-align: center;
+    margin-left: 630px;
+    display: block;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    width: 40px;
+    height: 40px;
+}
+
+.favicon1{
+    text-align: center;
+    margin-left: 630px;
+    display: block;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.favicon2{
+    text-align: center;
+    margin-left: 630px;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.blue{
+    color: royalblue;
+}
+
+.green{
+    color: #00FF00;
+    display: inline-block;
+}
+
+.introduction1{
+    margin: 40px 200px;
+}
+
+.intro{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    color: #5D7768 ;
+    text-align: justify;
+}
+
+.stats{
+    height: 300px;
+    background-color: royalblue;
+    text-align: center;
+    display: flex;
+}
+
+.midblue{
+    width: 220px;
+    padding: 50px;
+}
+
+.para2{
+    font-family: Adobe Naskh Medium;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.para1{
+    line-height: 0em;
+    font-family: Adobe Naskh Medium;
+    font-weight: bold;
+    font-size: 42px;
+    color: white;
+    
+}
+
+.num{
+    color: white;
+    font-size: 60px;
+    list-style: none;
+    display: inline;
+    padding: 40px;
+    margin: 20px;
+}
+
+.service{
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    font-weight: bolder;
+}
+
+.container{
+    /* display: flex; */
+}
+
+.con1{
+    height: 160px;
+    width: 320px;
+    display: inline-block;
+    margin: 0px 90px 0px 90px ;
+    box-shadow: 0px 0px 10px #777777; 
+    background-image: url(images/sadaqah.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.con2{
+    height: 160px;
+    width: 320px;
+    display: inline-block;
+    margin: 0px 90px 0px 0px ;
+    box-shadow: 0px 0px 10px #777777;
+    background-image: url(images/con2.png);
+    /* background-size: 70px; */
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.con3{
+    height: 160px;
+    width: 320px;
+    display: inline-block;
+    margin: 0px 90px 0px 0px ;
+    box-shadow: 0px 0px 10px #777777;
+    background-image: url(images/con3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.con4{
+    height: 160px;
+    width: 320px;
+    display: inline-block;
+    margin: 30px 90px 0px 90px ;
+    box-shadow: 0px 0px 10px #777777;
+    background-image: url(images/con4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.con5{
+    height: 160px;
+    width: 320px;
+    display: inline-block;
+    margin: 30px 90px 0px 0px ;
+    box-shadow: 0px 0px 10px #777777;
+    background-image: url(images/con5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.con6{
+    height: 160px;
+    width: 320px;
+    display: inline-block;
+    margin: 30px 90px 0px 0px ;
+    box-shadow: 0px 0px 10px #777777;
+    background-image: url(images/con6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a{
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.b{
+    width: 830px;
+    margin-left: 90px;
+}
+
+.c{
+    width: 350px;
+}
+
+.div1,.div2{
+    display: flex;
+    padding: 20px;
+}
+
+.hepa{
+    width: 450px;
+    height: 70px;
+    background-color: #F8F9F8 ;
+
+}
+
+.house{
+    width: 450px;
+    height: 70px;
+    background-color: #F8F9F8 ;
+    margin-left: 100px;
+}
+
+.mission{
+    font-family: Adobe Naskh Medium;
+    font-weight: bold;
+    font-size: 40px;
+    color: royalblue;
+    margin-left: 20px;
+}
+
+.heading{
+    color: royalblue;
+    font-family: Adobe Naskh Medium;
+    font-size: x-large;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.overflow{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+
+.end{
+    height: 350px;
+    background-color: darkslategray;
+}
+
+.footer{
+    height: 30px;
+    background-color: royalblue;
+    color: white;
+}
+
+.mid{
+    color: white;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    font-size: x-large;
+    margin-left: 550px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.left{
+    color: white;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    font-size: x-large;
+    margin-left: 350px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.right{
+    color: darkgrey;
+    margin: 20px 80px ;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    display: inline-block;
+}
+
+.phone{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.web{
+    vertical-align: middle;
+    width: 35px;
+    height: 25px;
+}
+
+.endicon{
+    margin-bottom: -80px;
+}
